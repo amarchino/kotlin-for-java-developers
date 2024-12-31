@@ -7,6 +7,9 @@ fun main(args: Array<String>) {
     number = 10
     number = 6
 
+    val names = arrayListOf("John", "Jane", "Mary")
+    println(names[1])
+
     val employees: EmployeeSet
 
     val employee1 = Employee("Lynn Jones", 500)
