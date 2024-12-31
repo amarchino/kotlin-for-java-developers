@@ -3,6 +3,25 @@ package academy.learnprogramming.declarations
 typealias EmployeeSet = Set<Employee>
 
 fun main(args: Array<String>) {
+
+    val employeeOne = Employee("Mary", 1)
+    val employeeTwo = Employee("John", 2)
+    val employeeThree = Employee("John", 2)
+
+    println(employeeOne == employeeTwo)
+    println(employeeTwo == employeeThree)
+
+    println(employeeOne === employeeTwo)
+    println(employeeTwo === employeeThree)
+
+    var employeeFour = employeeTwo
+    println(employeeTwo === employeeFour)
+
+    println(employeeFour != employeeTwo)
+    println(employeeFour !== employeeTwo)
+    println(employeeTwo != employeeThree)
+    println(employeeTwo !== employeeThree)
+
     var number: Int
     number = 10
     number = 6
@@ -29,4 +48,10 @@ fun main(args: Array<String>) {
 
 class Employee(var name: String, val id: Int) {
 
+    override fun equals(other: Any?): Boolean {
+        if(other is Employee) {
+            return name == other.name && id == other.id
+        }
+        return false
+    }
 }
