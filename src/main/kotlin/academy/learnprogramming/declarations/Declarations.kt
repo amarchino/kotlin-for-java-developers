@@ -56,7 +56,15 @@ fun main(args: Array<String>) {
         employee2 = Employee("Mike Watson", 150)
     }
 
+    println(employee1)
+    val change = 4.22
+    println("Your change is $change")
 
+    val numerator = 10.99
+    val denominator = 20.00
+    println("The value of $numerator divided by $denominator is ${numerator/denominator}")
+
+    println("The employee's id is ${employee1.id}")
 }
 
 class Employee(var name: String, val id: Int) {
@@ -67,4 +75,9 @@ class Employee(var name: String, val id: Int) {
         }
         return false
     }
+
+    override fun toString(): String {
+        return "Employee(name=$name, id=$id)"
+    }
+
 }
