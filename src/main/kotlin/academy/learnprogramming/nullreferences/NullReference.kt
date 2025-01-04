@@ -26,6 +26,13 @@ fun main() {
     val str5: String? = null
     val anotherString: String = "This isn't nullable"
     println(str5 == anotherString)
+
+    val nullableInts = arrayOfNulls<Int>(5)
+    for(i in nullableInts) {
+        println(i)
+    }
+    println(nullableInts[3].toString())
+
 }
 
 fun printText(text: String) {
