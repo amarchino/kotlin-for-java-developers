@@ -1,4 +1,4 @@
-package academy.learnprogramming.datatypes
+package academy.learnprogramming.functions
 
 fun main() {
     println(labelMultiply(label = "Here's the result:", operand2 = 3, operand1 = 4))
@@ -19,6 +19,14 @@ fun main() {
     for(c in lotsOfCars) {
         println(c)
     }
+    val s = "this is all in lowercase"
+    println(s.upperFirstAndLast())
+}
+
+fun String.upperFirstAndLast(): String {
+    val upperFirst = substring(0, 1).uppercase() + substring(1)
+    return upperFirst.substring(0, upperFirst.length - 1) +
+            upperFirst.substring(upperFirst.length - 1).uppercase()
 }
 
 fun labelMultiply(operand1: Int, operand2: Int, label: String = "The answer is:") =
