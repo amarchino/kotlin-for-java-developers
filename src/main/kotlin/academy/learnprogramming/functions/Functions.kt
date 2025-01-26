@@ -29,7 +29,7 @@ fun String.upperFirstAndLast(): String {
             upperFirst.substring(upperFirst.length - 1).uppercase()
 }
 
-fun labelMultiply(operand1: Int, operand2: Int, label: String = "The answer is:") =
+inline fun labelMultiply(operand1: Int, operand2: Int, label: String = "The answer is:") =
     "$label ${operand1 * operand2}"
 
 fun whatever() = 3 * 4
