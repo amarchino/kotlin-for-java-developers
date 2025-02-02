@@ -3,6 +3,8 @@ package academy.learnprogramming.inheritance
 import java.time.Year
 
 fun main() {
+    println(Department.ACCOUNTING.getDepartmentInfo())
+
     println(CompanyCommunications.getTagLine())
     println(CompanyCommunications.getCopyrightLine())
     println(SomeClass.accessPrivateVar())
@@ -21,6 +23,15 @@ fun main() {
         }
     })
     println(thisIsMutable)
+}
+
+enum class Department(val fullName: String, val numEmployees: Int) {
+    HR("Human Resources", 5),
+    IT("Information Technology", 10),
+    ACCOUNTING("Accounting", 3),
+    SALES("Sales", 20);
+
+    fun getDepartmentInfo() = "The $fullName department has $numEmployees employes"
 }
 
 object CompanyCommunications {
