@@ -25,7 +25,7 @@ fun main() {
     println(thisIsMutable)
 }
 
-fun topLevel(str: String) = println("Top level function: $str")
+internal fun topLevel(str: String) = println("Top level function: $str")
 
 enum class Department(val fullName: String, val numEmployees: Int) {
     HR("Human Resources", 5),
@@ -39,7 +39,7 @@ enum class Department(val fullName: String, val numEmployees: Int) {
 object CompanyCommunications {
     val currentYear = Year.now().value
     fun getTagLine() = "Out company rocks!"
-    fun getCopyrightLine() = "Copyright \u00A9 $currentYear Our Company. All rights reserved"
+    internal fun getCopyrightLine() = "Copyright \u00A9 $currentYear Our Company. All rights reserved"
 }
 
 class SomeClass private constructor(val someString: String) {
