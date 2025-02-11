@@ -1,4 +1,4 @@
-package academy.learnprogramming.section6.loops
+package academy.learnprogramming.section6
 
 fun main() {
     val range = 1..5
