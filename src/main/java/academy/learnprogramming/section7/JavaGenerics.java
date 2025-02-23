@@ -12,5 +12,9 @@ public class JavaGenerics {
 
         List list1 = new ArrayList<>();
         list.add("Goodbye");
+
+        List<String> strings = new ArrayList<>();
+        strings.add("Hello");
+        boolean b = strings instanceof List<String>;
     }
 }
