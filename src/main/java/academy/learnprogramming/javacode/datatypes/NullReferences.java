@@ -1,4 +1,4 @@
-package academy.learnprogramming.datatypes.javacode;
+package academy.learnprogramming.javacode.datatypes;
 
 public class NullReferences {
     public static void main(String[] args) {

@@ -1,4 +1,8 @@
-package academy.learnprogramming.section9;
+package academy.learnprogramming.javacode.section9;
+
+import academy.learnprogramming.section9.KotlinCar;
+import academy.learnprogramming.section9.SingletonObj;
+import academy.learnprogramming.section9.StaticCar;
 
 import java.io.IOException;
 

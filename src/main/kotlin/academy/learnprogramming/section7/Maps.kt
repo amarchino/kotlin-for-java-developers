@@ -1,5 +1,7 @@
 package academy.learnprogramming.section7
 
+import kotlin.collections.iterator
+
 fun main() {
 
     val setInts = setOf(10, 15, 19, 5, 3, -22)

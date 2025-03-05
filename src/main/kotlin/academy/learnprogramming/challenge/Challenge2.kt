@@ -1,6 +1,6 @@
 package academy.learnprogramming.challenge
 
-import academy.learnprogramming.challange.javacode.Challenge2
+import academy.learnprogramming.javacode.challange.Challenge2
 
 fun main() {
     // 1. Declare a non-nullable float variable two ways, and assign it the value -3847.384

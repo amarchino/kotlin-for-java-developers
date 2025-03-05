@@ -1,4 +1,4 @@
-package academy.learnprogramming.section9;
+package academy.learnprogramming.javacode.section9;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

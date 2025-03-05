@@ -1,4 +1,4 @@
-package academy.learnprogramming.challange.javacode;
+package academy.learnprogramming.javacode.challange;
 
 public class Challenge3 {
     public static class Bicycle {

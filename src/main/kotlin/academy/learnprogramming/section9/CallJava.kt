@@ -1,5 +1,7 @@
 package academy.learnprogramming.section9
 
+import academy.learnprogramming.javacode.section9.Car
+
 fun main() {
     val car = Car("blue", "Ford", 2015)
     car.color = "green"

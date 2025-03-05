@@ -1,4 +1,4 @@
-package academy.learnprogramming.datatypes.javacode;
+package academy.learnprogramming.javacode.datatypes;
 
 public class DummyClass {
     public String isVacationTime(boolean onVacation) {

@@ -1,4 +1,4 @@
-package academy.learnprogramming.accessmodifier;
+package academy.learnprogramming.javacode.accessmodifier;
 
 public class JavaEmployee {
     private final String firstName;

@@ -1,5 +1,7 @@
 package academy.learnprogramming.section6
 
+import kotlin.text.iterator
+
 fun main() {
     val range = 1..5
     for(i in range) {

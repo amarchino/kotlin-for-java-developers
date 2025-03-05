@@ -1,6 +1,6 @@
 package academy.learnprogramming.datatypes
 
-import academy.learnprogramming.datatypes.javacode.DummyClass
+import academy.learnprogramming.javacode.datatypes.DummyClass
 import java.math.BigDecimal
 
 fun main() {

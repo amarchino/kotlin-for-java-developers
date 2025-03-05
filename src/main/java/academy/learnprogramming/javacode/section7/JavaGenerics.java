@@ -1,4 +1,4 @@
-package academy.learnprogramming.section7;
+package academy.learnprogramming.javacode.section7;
 
 import java.util.ArrayList;
 import java.util.List;

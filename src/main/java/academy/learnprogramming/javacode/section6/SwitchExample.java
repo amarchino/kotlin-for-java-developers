@@ -1,4 +1,4 @@
-package academy.learnprogramming.section6;
+package academy.learnprogramming.javacode.section6;
 
 public class SwitchExample {
     public static void main(String[] args) {
